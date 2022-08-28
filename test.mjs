@@ -6,6 +6,6 @@ test('files', async t => {
   let basePath = process.cwd()
   let folder = 'some'
   let result = await getFiles(basePath, folder)
-  t.pass()
+  t.ok(result.length == 1, 'got one file')
   console.log(result)
 })
