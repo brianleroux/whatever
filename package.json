@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "tape test.mjs | tap-spec"
+  },
+  "dependencies": {
+    "glob": "^8.0.3",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.6.0"
+  }
+}
